@@ -12,7 +12,7 @@ def start_processing():
         .getOrCreate()
 
     raw_schema=StructType([
-        StructField("device_id",StringType(),True)
+        StructField("device_id",StringType(),True),
         StructField("reading",FloadType(),True)
     ])
 
